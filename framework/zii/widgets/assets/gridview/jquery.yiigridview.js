@@ -54,6 +54,8 @@
 					ajaxUpdate: [],
 					ajaxVar: 'ajax',
 					ajaxType: 'GET',
+					csrfTokenName: null,
+					csrfToken: null,
 					pagerClass: 'pager',
 					loadingClass: 'loading',
 					filterClass: 'filters',
@@ -89,11 +91,14 @@
 						// Check to see if History.js is enabled for our Browser
 						if (settings.enableHistory && window.History.enabled) {
 							// Ajaxify this link
-							var url = $(this).attr('href').split('?'),
-								params = $.deparam.querystring('?'+ (url[1] || ''));
+							var href = $(this).attr('href');
+							if(href){
+								var url = href.split('?'),
+									params = $.deparam.querystring('?'+ (url[1] || ''));
 
-							delete params[settings.ajaxVar];
-							window.History.pushState(null, document.title, decodeURIComponent($.param.querystring(url[0], params)));
+								delete params[settings.ajaxVar];
+								window.History.pushState(null, document.title, decodeURIComponent($.param.querystring(url[0], params)));
+							}
 						} else {
 							$('#' + id).yiiGridView('update', {url: $(this).attr('href')});
 						}
@@ -314,6 +319,12 @@
 					if (options.data === undefined) {
 						options.data = $(settings.filterSelector).serialize();
 					}
+				}
+				if (settings.csrfTokenName && settings.csrfToken) {
+					if (typeof options.data=='string')
+						options.data+='&'+settings.csrfTokenName+'='+settings.csrfToken;
+					else
+						options.data[settings.csrfTokenName] = settings.csrfToken;
 				}
 				if(yiiXHR[id] != null){
 					yiiXHR[id].abort();
