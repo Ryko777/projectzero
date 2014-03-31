@@ -1,5 +1,4 @@
 <?php
-// Noh cica acilea ii index.php la care vin requesturile de la .htaccess :O wtf
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
