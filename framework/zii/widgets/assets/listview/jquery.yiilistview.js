@@ -35,14 +35,11 @@
 			if(settings.ajaxUpdate.length > 0) {
 				$(document).on('click.yiiListView', settings.updateSelector,function(){
 					if(settings.enableHistory && window.History.enabled) {
-						var href = $(this).attr('href');
-						if(href){
-							var url = href.split('?'),
-								params = $.deparam.querystring('?'+ (url[1] || ''));
+						var url = $(this).attr('href').split('?'),
+							params = $.deparam.querystring('?'+ (url[1] || ''));
 
-							delete params[settings.ajaxVar];
-							window.History.pushState(null, document.title, decodeURIComponent($.param.querystring(url[0], params)));
-						}
+						delete params[settings.ajaxVar];
+						window.History.pushState(null, document.title, decodeURIComponent($.param.querystring(url[0], params)));
 					} else {
 						$.fn.yiiListView.update(id, {url: $(this).attr('href')});
 					}
@@ -161,23 +158,23 @@
 				}
 			}
 		}, options || {});
-
+		
 		if(options.data!=undefined && options.type=='GET') {
 			options.url = $.param.querystring(options.url, options.data);
 			options.data = {};
 		}
-
+		
 		if(settings.ajaxVar)
 			options.url = $.param.querystring(options.url, settings.ajaxVar+'='+id);
-
+		
 		if(yiiXHR[id] != null) {
-			yiiXHR[id].abort();
+			yiiXHR[id].abort();	
 		}
-
+		
 		$('#'+id).addClass(settings.loadingClass);
 
 		if(settings.beforeAjaxUpdate != undefined)
-			settings.beforeAjaxUpdate(id, options);
+			settings.beforeAjaxUpdate(id);
 		yiiXHR[id] = $.ajax(options);
 	};
 
