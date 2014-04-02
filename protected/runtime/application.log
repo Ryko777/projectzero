@@ -71,3 +71,116 @@ Stack trace:
 REQUEST_URI=/index.php?r=articles/admin
 HTTP_REFERER=http://localhost/index.php?r=articles/index
 ---
+2014/04/02 15:30:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/articles?view=articles
+HTTP_REFERER=http://localhost/index.php/site/page?view=about
+---
+2014/04/02 15:30:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/articles?view=articles
+HTTP_REFERER=http://localhost/index.php/site/contact
+---
+2014/04/02 15:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/articles?view=articles
+HTTP_REFERER=http://localhost/index.php/site/page?view=about
+---
+2014/04/02 15:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/articles&view=articles
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=about
+---
+2014/04/02 15:33:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=site/articles&view=articles
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=about
+---
+2014/04/02 15:34:04 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/view/a...')
+#10 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/articles/view/articles
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=about
+---
+2014/04/02 15:34:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\framework\web\CController.php:336
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('view')
+#9 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/view/a...')
+#10 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/index.php/articles/view/articles
+HTTP_REFERER=http://localhost/index.php/site/page?view=about
+---
+2014/04/02 15:37:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/articles?view=articles
+HTTP_REFERER=http://localhost/index.php?r=articles&view=articles
+---
+2014/04/02 15:37:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "articles".' in C:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(270): CController->missingAction('articles')
+#1 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('articles')
+#2 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('site/articles')
+#3 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php/site/articles?view=articles
+HTTP_REFERER=http://localhost/index.php/site/page?view=about
+---
