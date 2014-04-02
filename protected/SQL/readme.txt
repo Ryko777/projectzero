@@ -1,1 +1,0 @@
-// readme.txt ca altfel nu mere Git pana pun SQL :O
