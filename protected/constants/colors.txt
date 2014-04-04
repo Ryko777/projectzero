@@ -1,0 +1,11 @@
+// kraftsoft colors
+https://kuler.adobe.com/London---Fit-Family-Food-color-theme-2826787/
+
+// kraftsoft colors
+white       => rgb(255,255,255) => #FFFFFF
+darkblue    => rgb(2,21,26)     => #02151A
+mainblue    => rgb(4,58,71)     => #043A47
+lightblue   => rgb(8,120,145)   => #087891
+lightgray   => rgb(200,200,200) => #C8C8C8
+activelink  => rgb(179,29,20)   => #B31D14
+visitedlink => rgb(0,0,0)       => #000000
