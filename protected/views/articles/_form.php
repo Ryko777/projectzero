@@ -26,12 +26,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'author'); ?>
-		<?php echo $form->textField($model,'author',array('size'=>50,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'author'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'content'); ?>
 		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'content'); ?>
@@ -41,18 +35,6 @@
 		<?php echo $form->labelEx($model,'tags'); ?>
 		<?php echo $form->textField($model,'tags',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'tags'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'mysql_timestamp'); ?>
-		<?php echo $form->textField($model,'mysql_timestamp'); ?>
-		<?php echo $form->error($model,'mysql_timestamp'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'posted_on'); ?>
-		<?php echo $form->textField($model,'posted_on'); ?>
-		<?php echo $form->error($model,'posted_on'); ?>
 	</div>
 
 	<div class="row">

@@ -46,13 +46,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'title',
 		'author',
+		'title',
 		'content',
 		'tags',
 		'mysql_timestamp',
 		/*
-		'posted_on',
 		'images',
 		'links',
 		'video',

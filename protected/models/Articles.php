@@ -5,12 +5,11 @@
  *
  * The followings are the available columns in table '{{articles}}':
  * @property integer $id
- * @property string $title
  * @property string $author
+ * @property string $title
  * @property string $content
  * @property string $tags
  * @property string $mysql_timestamp
- * @property string $posted_on
  * @property string $images
  * @property string $links
  * @property string $video
@@ -34,13 +33,13 @@ class Articles extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, author, content, tags, mysql_timestamp, posted_on', 'required'),
-			array('title, tags', 'length', 'max'=>255),
-			array('author', 'length', 'max'=>50),
+			array('title, content, tags', 'required'),
+			array('author', 'length', 'max'=>20),
+			array('title, tags', 'length', 'max'=>500),
 			array('images, links, video, files', 'length', 'max'=>1000),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, title, author, content, tags, mysql_timestamp, posted_on, images, links, video, files', 'safe', 'on'=>'search'),
+			array('id, author, title, content, tags', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,12 +61,11 @@ class Articles extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'title' => 'Title',
 			'author' => 'Author',
+			'title' => 'Title',
 			'content' => 'Content',
 			'tags' => 'Tags',
 			'mysql_timestamp' => 'Mysql Timestamp',
-			'posted_on' => 'Posted On',
 			'images' => 'Images',
 			'links' => 'Links',
 			'video' => 'Video',
@@ -94,12 +92,11 @@ class Articles extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('title',$this->title,true);
 		$criteria->compare('author',$this->author,true);
+		$criteria->compare('title',$this->title,true);
 		$criteria->compare('content',$this->content,true);
 		$criteria->compare('tags',$this->tags,true);
 		$criteria->compare('mysql_timestamp',$this->mysql_timestamp,true);
-		$criteria->compare('posted_on',$this->posted_on,true);
 		$criteria->compare('images',$this->images,true);
 		$criteria->compare('links',$this->links,true);
 		$criteria->compare('video',$this->video,true);

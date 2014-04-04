@@ -22,12 +22,11 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
-		'title',
 		'author',
+		'title',
 		'content',
 		'tags',
 		'mysql_timestamp',
-		'posted_on',
 		'images',
 		'links',
 		'video',

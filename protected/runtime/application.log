@@ -200,3 +200,1851 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/index.php/r=gii
 ---
+2014/04/04 10:38:14 [error] [php] include(WebUser.php): failed to open stream: No such file or directory (C:\wamp\www\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\framework\YiiBase.php(196): import()
+#1 C:\wamp\www\framework\base\CModule.php(386): createComponent()
+#2 C:\wamp\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 C:\wamp\www\protected\controllers\SiteController.php(106): CWebApplication->__get()
+#4 C:\wamp\www\framework\web\actions\CInlineAction.php(49): SiteController->actionLogout()
+#5 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/logout
+in C:\wamp\www\protected\controllers\SiteController.php (106)
+in C:\wamp\www\index.php (13)
+2014/04/04 10:38:20 [error] [php] include(WebUser.php): failed to open stream: No such file or directory (C:\wamp\www\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\framework\YiiBase.php(196): import()
+#1 C:\wamp\www\framework\base\CModule.php(386): createComponent()
+#2 C:\wamp\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 C:\wamp\www\protected\views\layouts\main.php(36): CWebApplication->__get()
+#4 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#5 C:\wamp\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\wamp\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 C:\wamp\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\wamp\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\wamp\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\wamp\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 C:\wamp\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#13 C:\wamp\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\wamp\www\framework\web\CController.php(784): SiteController->renderFile()
+#15 C:\wamp\www\protected\controllers\SiteController.php(32): SiteController->render()
+#16 C:\wamp\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\wamp\www\framework\web\CController.php(286): SiteController->runAction()
+#19 C:\wamp\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\wamp\www\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\wamp\www\protected\views\layouts\main.php (36)
+in C:\wamp\www\protected\views\layouts\column1.php (6)
+in C:\wamp\www\protected\controllers\SiteController.php (32)
+2014/04/04 11:22:23 [error] [php] include(RWebUser.php): failed to open stream: No such file or directory (C:\wamp\www\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\framework\YiiBase.php(196): import()
+#1 C:\wamp\www\framework\base\CModule.php(386): createComponent()
+#2 C:\wamp\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 C:\wamp\www\protected\views\layouts\main.php(36): CWebApplication->__get()
+#4 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#5 C:\wamp\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\wamp\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 C:\wamp\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\wamp\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\wamp\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\wamp\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 C:\wamp\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#13 C:\wamp\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\wamp\www\framework\web\CController.php(784): SiteController->renderFile()
+#15 C:\wamp\www\protected\controllers\SiteController.php(32): SiteController->render()
+#16 C:\wamp\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\wamp\www\framework\web\CController.php(286): SiteController->runAction()
+#19 C:\wamp\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\wamp\www\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\wamp\www\protected\views\layouts\main.php (36)
+in C:\wamp\www\protected\views\layouts\column1.php (6)
+in C:\wamp\www\protected\controllers\SiteController.php (32)
+2014/04/04 11:26:17 [error] [php] include(RWebUser.php): failed to open stream: No such file or directory (C:\wamp\www\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\framework\YiiBase.php(196): import()
+#1 C:\wamp\www\framework\base\CModule.php(386): createComponent()
+#2 C:\wamp\www\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 C:\wamp\www\protected\views\layouts\main.php(36): CWebApplication->__get()
+#4 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#5 C:\wamp\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 C:\wamp\www\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 C:\wamp\www\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 C:\wamp\www\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 C:\wamp\www\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 C:\wamp\www\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 C:\wamp\www\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#13 C:\wamp\www\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 C:\wamp\www\framework\web\CController.php(784): SiteController->renderFile()
+#15 C:\wamp\www\protected\controllers\SiteController.php(32): SiteController->render()
+#16 C:\wamp\www\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 C:\wamp\www\framework\web\CController.php(286): SiteController->runAction()
+#19 C:\wamp\www\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 C:\wamp\www\framework\web\CWebApplication.php(282): SiteController->run()
+#21 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in C:\wamp\www\protected\views\layouts\main.php (36)
+in C:\wamp\www\protected\views\layouts\column1.php (6)
+in C:\wamp\www\protected\controllers\SiteController.php (32)
+2014/04/04 11:27:20 [error] [exception.CException] exception 'CException' with message 'Property "Articles.id" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\wamp\www\protected\views\articles\_view.php(9): CActiveRecord->__get('id')
+#2 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#4 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#5 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\wamp\www\protected\views\articles\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#12 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#14 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\wamp\www\protected\controllers\ArticlesController.php(128): CController->render('index', Array)
+#16 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#17 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#27 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\wamp\www\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/articles
+HTTP_REFERER=http://localhost/index.php/user
+---
+2014/04/04 11:28:44 [error] [exception.CException] exception 'CException' with message 'Property "Articles.id" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id')
+#1 C:\wamp\www\protected\views\articles\_view.php(9): CActiveRecord->__get('id')
+#2 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#4 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#5 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\wamp\www\protected\views\articles\index.php(20): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#12 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#14 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\wamp\www\protected\controllers\ArticlesController.php(128): CController->render('index', Array)
+#16 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#17 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#27 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\wamp\www\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php/articles
+HTTP_REFERER=http://localhost/index.php/user/admin/view/id/3
+---
+2014/04/04 12:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=about
+---
+2014/04/04 12:14:41 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:14:41 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:14:59 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:14:59 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=site/index
+---
+2014/04/04 12:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=user/profile
+---
+2014/04/04 12:29:06 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:14 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:16 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:20 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:22 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:23 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:26 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:40 [warning] [application] Failed to set unsafe attribute "verifyCode" of "RegistrationForm".
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (30)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:29:41 [error] [php] mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (C:\wamp\www\protected\modules\user\UserModule.php:226)
+Stack trace:
+#0 C:\wamp\www\framework\web\actions\CInlineAction.php(49): RegistrationController->actionRegistration()
+#1 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 C:\wamp\www\framework\web\CController.php(286): RegistrationController->runAction()
+#3 C:\wamp\www\framework\web\CController.php(265): RegistrationController->runActionWithFilters()
+#4 C:\wamp\www\framework\web\CWebApplication.php(282): RegistrationController->run()
+#5 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=user/registration
+in C:\wamp\www\protected\modules\user\UserModule.php (226)
+in C:\wamp\www\protected\modules\user\controllers\RegistrationController.php (54)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:31:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=site/page&view=about
+---
+2014/04/04 12:36:32 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:36:32 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:47:09 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:47:09 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:51:26 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 12:51:26 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:06:08 [error] [php] Undefined variable: id (C:\wamp\www\protected\views\articles\_form.php:24)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#4 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#5 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (24)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:08:05 [error] [php] Undefined variable: id (C:\wamp\www\protected\views\articles\_form.php:24)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#4 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#5 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (24)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:08:29 [error] [php] strpos() expects parameter 1 to be string, object given (C:\wamp\www\framework\web\helpers\CHtml.php:2477)
+Stack trace:
+#0 C:\wamp\www\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 C:\wamp\www\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 C:\wamp\www\protected\views\articles\_form.php(24): CActiveForm->textField()
+#3 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#4 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#5 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#6 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (24)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:10:55 [error] [php] Undefined variable: username (C:\wamp\www\protected\views\articles\_form.php:24)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#4 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#5 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (24)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:14:02 [error] [exception.CException] exception 'CException' with message 'Property "Articles.1" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('1')
+#1 C:\wamp\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('1')
+#2 C:\wamp\www\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Articles), true)
+#3 C:\wamp\www\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Articles), true, Array)
+#4 C:\wamp\www\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Articles), true, Array)
+#5 C:\wamp\www\protected\views\articles\_form.php(24): CActiveForm->textField(Object(Articles), true)
+#6 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#7 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#9 C:\wamp\www\protected\views\articles\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(79): CController->render('create', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 13:15:47 [error] [php] Undefined variable: id (C:\wamp\www\protected\views\articles\_form.php:25)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#4 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#5 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (25)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:17:07 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "value".' in C:\wamp\www\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_form.php(25): CComponent->__call('value', Array)
+#1 C:\wamp\www\protected\views\articles\_form.php(25): CActiveForm->value(Object(Articles), Object(User))
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#4 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#5 C:\wamp\www\protected\views\articles\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#7 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#9 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\wamp\www\protected\controllers\ArticlesController.php(79): CController->render('create', Array)
+#11 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#12 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#22 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 13:17:46 [error] [exception.CException] exception 'CException' with message 'CActiveForm and its behaviors do not have a method or closure named "placeHolder".' in C:\wamp\www\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_form.php(25): CComponent->__call('placeHolder', Array)
+#1 C:\wamp\www\protected\views\articles\_form.php(25): CActiveForm->placeHolder(Object(Articles), Object(User))
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#4 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#5 C:\wamp\www\protected\views\articles\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#7 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#9 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\wamp\www\protected\controllers\ArticlesController.php(79): CController->render('create', Array)
+#11 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#12 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#22 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 13:18:11 [error] [php] strpos() expects parameter 1 to be string, object given (C:\wamp\www\framework\web\helpers\CHtml.php:2477)
+Stack trace:
+#0 C:\wamp\www\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 C:\wamp\www\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 C:\wamp\www\protected\views\articles\_form.php(24): CActiveForm->textField()
+#3 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#4 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#5 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#6 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (24)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:18:30 [error] [exception.CException] exception 'CException' with message 'Property "Articles." is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('')
+#1 C:\wamp\www\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('')
+#2 C:\wamp\www\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Articles), NULL)
+#3 C:\wamp\www\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Articles), NULL, Array)
+#4 C:\wamp\www\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Articles), NULL, Array)
+#5 C:\wamp\www\protected\views\articles\_form.php(24): CActiveForm->textField(Object(Articles), NULL)
+#6 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#7 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#9 C:\wamp\www\protected\views\articles\create.php(18): CController->renderPartial('_form', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(79): CController->render('create', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 13:36:18 [error] [php] Undefined variable: Id (C:\wamp\www\protected\views\articles\_form.php:21)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\protected\views\articles\create.php(18): ArticlesController->renderPartial()
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#3 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#4 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#5 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(79): ArticlesController->render()
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\views\articles\_form.php (21)
+in C:\wamp\www\protected\views\articles\create.php (18)
+in C:\wamp\www\protected\controllers\ArticlesController.php (79)
+2014/04/04 13:36:43 [error] [exception.CException] exception 'CException' with message 'Property "User.Id" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Id')
+#1 C:\wamp\www\protected\views\articles\_form.php(21): CActiveRecord->__get('Id')
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#4 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#5 C:\wamp\www\protected\views\articles\create.php(18): CController->renderPartial('_form', Array)
+#6 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#7 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#8 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#9 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('create', Array, true)
+#10 C:\wamp\www\protected\controllers\ArticlesController.php(79): CController->render('create', Array)
+#11 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionCreate()
+#12 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#21 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#22 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 13:51:13 [warning] [application] Failed to set unsafe attribute "author_id" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:13 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:13 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:13 [error] [php] Indirect modification of overloaded property Articles::$attributes has no effect (C:\wamp\www\protected\controllers\ArticlesController.php:73)
+Stack trace:
+#0 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#1 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:43 [warning] [application] Failed to set unsafe attribute "author_id" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:43 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:43 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:51:43 [error] [php] Indirect modification of overloaded property Articles::$attributes has no effect (C:\wamp\www\protected\controllers\ArticlesController.php:73)
+Stack trace:
+#0 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#1 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:57:17 [warning] [application] Failed to set unsafe attribute "author_id" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:57:17 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 13:57:17 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (72)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:06:24 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:06:24 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:06:49 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:06:49 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:07:24 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:07:24 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (73)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:23:29 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (76)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:23:29 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (76)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:32:21 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (76)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:32:21 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (76)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:34:34 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (76)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:34:34 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (76)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:38:33 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (77)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:38:33 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (77)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:39:35 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (77)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:39:35 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (77)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:42:34 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (78)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:42:34 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (78)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:48:02 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:48:02 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:48:43 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:48:43 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:48:43 [warning] [application] Failed to set unsafe attribute "Posted On" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:49:01 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:49:01 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:49:01 [warning] [application] Failed to set unsafe attribute "Author" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:49:01 [warning] [application] Failed to set unsafe attribute "Posted On" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (83)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:50:29 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (84)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:50:29 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (84)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:58:34 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 14:58:34 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 15:00:09 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 15:00:09 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 15:02:18 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 15:02:18 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:02:47 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:02:47 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:11:18 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:11:18 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (85)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:14:49 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (84)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:14:49 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (84)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:17:54 [warning] [application] Failed to set unsafe attribute "mysql_timestamp" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (84)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:17:54 [warning] [application] Failed to set unsafe attribute "posted_on" of "Articles".
+in C:\wamp\www\protected\controllers\ArticlesController.php (84)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:20:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles/view&id=23
+---
+2014/04/04 18:20:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles/view&id=23
+---
+2014/04/04 18:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "articles".' in C:\wamp\www\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#1 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 18:41:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles/index
+---
+2014/04/04 18:41:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles/index
+---
+2014/04/04 18:42:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles/index
+---
+2014/04/04 18:42:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 18:42:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles/create
+---
+2014/04/04 18:45:17 [error] [php] strtolower() expects parameter 1 to be string, array given (C:\wamp\www\framework\web\auth\CAccessControlFilter.php:115)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(1144): CAccessControlFilter->setRules()
+#1 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#2 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#3 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#4 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#5 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#6 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/admin
+in C:\wamp\www\index.php (13)
+2014/04/04 18:45:27 [error] [php] strtolower() expects parameter 1 to be string, array given (C:\wamp\www\framework\web\auth\CAccessControlFilter.php:115)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(1144): CAccessControlFilter->setRules()
+#1 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#2 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#3 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#4 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#5 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#6 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/create
+in C:\wamp\www\index.php (13)
+2014/04/04 18:46:49 [error] [php] Array to string conversion (C:\wamp\www\protected\views\articles\index.php:15)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#2 C:\wamp\www\protected\controllers\ArticlesController.php(130): ArticlesController->render()
+#3 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#4 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#6 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#12 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#13 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\index.php (15)
+in C:\wamp\www\protected\controllers\ArticlesController.php (130)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:46:53 [error] [php] Array to string conversion (C:\wamp\www\protected\views\articles\index.php:15)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#2 C:\wamp\www\protected\controllers\ArticlesController.php(130): ArticlesController->render()
+#3 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#4 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#6 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#12 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#13 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\index.php (15)
+in C:\wamp\www\protected\controllers\ArticlesController.php (130)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:47:12 [error] [php] Array to string conversion (C:\wamp\www\protected\views\articles\index.php:15)
+Stack trace:
+#0 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#2 C:\wamp\www\protected\controllers\ArticlesController.php(130): ArticlesController->render()
+#3 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#4 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#6 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#12 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#13 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\index.php (15)
+in C:\wamp\www\protected\controllers\ArticlesController.php (130)
+in C:\wamp\www\index.php (13)
+2014/04/04 18:48:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 18:52:56 [error] [php] include(RDbAuthManager.php): failed to open stream: No such file or directory (C:\wamp\www\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\framework\YiiBase.php(196): import()
+#1 C:\wamp\www\framework\base\CModule.php(386): createComponent()
+#2 C:\wamp\www\framework\web\CWebApplication.php(185): CWebApplication->getComponent()
+#3 C:\wamp\www\framework\web\auth\CWebUser.php(815): CWebApplication->getAuthManager()
+#4 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(346): WebUser->checkAccess()
+#5 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(284): CAccessRule->isRoleMatched()
+#6 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed()
+#7 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter()
+#8 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#10 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#13 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#14 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/admin
+in C:\wamp\www\index.php (13)
+2014/04/04 18:53:05 [error] [php] include(RDbAuthManager.php): failed to open stream: No such file or directory (C:\wamp\www\framework\YiiBase.php:427)
+Stack trace:
+#0 C:\wamp\www\framework\YiiBase.php(196): import()
+#1 C:\wamp\www\framework\base\CModule.php(386): createComponent()
+#2 C:\wamp\www\framework\web\CWebApplication.php(185): CWebApplication->getComponent()
+#3 C:\wamp\www\framework\web\auth\CWebUser.php(815): CWebApplication->getAuthManager()
+#4 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(346): WebUser->checkAccess()
+#5 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(284): CAccessRule->isRoleMatched()
+#6 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(138): CAccessRule->isUserAllowed()
+#7 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter()
+#8 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#9 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#10 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#11 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#12 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#13 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#14 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles/admin
+in C:\wamp\www\index.php (13)
+2014/04/04 18:57:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 18:57:28 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 18:57:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 19:21:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 19:21:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/admin')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/admin
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 19:21:45 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 21:19:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles/index
+---
+2014/04/04 21:19:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles/index
+---
+2014/04/04 21:32:43 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles/admin
+---
+2014/04/04 21:32:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 21:32:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('create')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/create')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/create
+HTTP_REFERER=http://localhost/index.php?r=articles/admin
+---
+2014/04/04 21:33:06 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\wamp\www\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(WebUser), 'You are not aut...')
+#1 C:\wamp\www\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('update')
+#8 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles/update')
+#9 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=articles/update&id=1
+HTTP_REFERER=http://localhost/index.php?r=articles/admin
+---
+2014/04/04 22:25:50 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.getModule" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\base\CModule.php(105): CComponent->__get('getModule')
+#1 C:\wamp\www\protected\views\articles\index.php(8): CModule->__get('getModule')
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#4 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#5 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=user/registration
+---
+2014/04/04 22:28:58 [error] [exception.CException] exception 'CException' with message 'Property "UserModule.user" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\base\CModule.php(105): CComponent->__get('user')
+#1 C:\wamp\www\protected\views\articles\index.php(8): CModule->__get('user')
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#4 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#5 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=user/registration
+---
+2014/04/04 22:29:35 [error] [exception.CException] exception 'CException' with message 'UserModule and its behaviors do not have a method or closure named "isGuest".' in C:\wamp\www\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\index.php(8): CComponent->__call('isGuest', Array)
+#1 C:\wamp\www\protected\views\articles\index.php(8): UserModule->isGuest()
+#2 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#4 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#5 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#7 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#8 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#18 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\wamp\www\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=user/registration
+---
+2014/04/04 22:57:58 [error] [php] Undefined variable: id (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 22:58:59 [error] [php] Object of class Articles could not be converted to string (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:04:31 [error] [php] Object of class Articles could not be converted to string (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:04:53 [error] [php] Object of class Articles could not be converted to string (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:06:48 [error] [php] Object of class Articles could not be converted to string (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:07:18 [error] [php] Trying to get property of non-object (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:08:27 [error] [php] Trying to get property of non-object (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:10:43 [error] [php] Trying to get property of non-object (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:11:19 [error] [exception.CException] exception 'CException' with message 'Property "Articles.Id" is not defined.' in C:\wamp\www\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\framework\db\ar\CActiveRecord.php(145): CComponent->__get('Id')
+#1 C:\wamp\www\protected\views\articles\_view.php(18): CActiveRecord->__get('Id')
+#2 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#3 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#4 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#5 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#6 [internal function]: CBaseListView->renderSection(Array)
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#8 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#9 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#10 C:\wamp\www\protected\views\articles\index.php(25): CBaseController->widget('zii.widgets.CLi...', Array)
+#11 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#12 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#14 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#15 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#16 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#17 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#19 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#23 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#24 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#25 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#26 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#27 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#28 C:\wamp\www\index.php(13): CApplication->run()
+#29 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 23:11:35 [error] [php] Object of class Articles could not be converted to string (C:\wamp\www\protected\views\articles\_view.php:18)
+Stack trace:
+#0 C:\wamp\www\framework\zii\widgets\CListView.php(291): ArticlesController->renderFile()
+#1 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#2 unknown(0): CListView->renderSection()
+#3 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback()
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CListView->renderContent()
+#5 C:\wamp\www\framework\web\CBaseController.php(173): CListView->run()
+#6 C:\wamp\www\protected\views\articles\index.php(25): ArticlesController->widget()
+#7 C:\wamp\www\framework\web\CBaseController.php(126): require()
+#8 C:\wamp\www\framework\web\CBaseController.php(95): ArticlesController->renderInternal()
+#9 C:\wamp\www\framework\web\CController.php(869): ArticlesController->renderFile()
+#10 C:\wamp\www\framework\web\CController.php(782): ArticlesController->renderPartial()
+#11 C:\wamp\www\protected\controllers\ArticlesController.php(151): ArticlesController->render()
+#12 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#13 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams()
+#14 C:\wamp\www\framework\web\filters\CFilterChain.php(133): ArticlesController->runAction()
+#15 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\wamp\www\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#17 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): ArticlesController->filterAccessControl()
+#18 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#19 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\wamp\www\framework\web\CController.php(265): ArticlesController->runActionWithFilters()
+#21 C:\wamp\www\framework\web\CWebApplication.php(282): ArticlesController->run()
+#22 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#23 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 C:\wamp\www\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php?r=articles
+in C:\wamp\www\protected\views\articles\_view.php (18)
+in C:\wamp\www\protected\views\articles\index.php (25)
+in C:\wamp\www\protected\controllers\ArticlesController.php (151)
+2014/04/04 23:12:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\protected\controllers\ArticlesController.php:180
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_view.php(18): ArticlesController->loadModel('decemvre')
+#1 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#2 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#3 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#8 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#9 C:\wamp\www\protected\views\articles\index.php(25): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 23:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\protected\controllers\ArticlesController.php:180
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_view.php(18): ArticlesController->loadModel('decemvre')
+#1 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#2 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#3 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#8 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#9 C:\wamp\www\protected\views\articles\index.php(25): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 23:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\protected\controllers\ArticlesController.php:180
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_view.php(18): ArticlesController->loadModel('decemvre')
+#1 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#2 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#3 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#8 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#9 C:\wamp\www\protected\views\articles\index.php(25): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 23:12:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\protected\controllers\ArticlesController.php:180
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_view.php(18): ArticlesController->loadModel('decemvre')
+#1 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#2 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#3 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#8 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#9 C:\wamp\www\protected\views\articles\index.php(25): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=articles
+---
+2014/04/04 23:12:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\protected\controllers\ArticlesController.php:180
+Stack trace:
+#0 C:\wamp\www\protected\views\articles\_view.php(18): ArticlesController->loadModel('decemvre')
+#1 C:\wamp\www\framework\web\CBaseController.php(130): require('C:\wamp\www\pro...')
+#2 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, false)
+#3 C:\wamp\www\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\wamp\www\pro...', Array)
+#4 C:\wamp\www\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 C:\wamp\www\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{sort...')
+#7 C:\wamp\www\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#8 C:\wamp\www\framework\web\CBaseController.php(173): CBaseListView->run()
+#9 C:\wamp\www\protected\views\articles\index.php(25): CBaseController->widget('zii.widgets.CLi...', Array)
+#10 C:\wamp\www\framework\web\CBaseController.php(126): require('C:\wamp\www\pro...')
+#11 C:\wamp\www\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\pro...', Array, true)
+#12 C:\wamp\www\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\pro...', Array, true)
+#13 C:\wamp\www\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\protected\controllers\ArticlesController.php(151): CController->render('index', Array)
+#15 C:\wamp\www\framework\web\actions\CInlineAction.php(49): ArticlesController->actionIndex()
+#16 C:\wamp\www\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('articles')
+#26 C:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/index.php?r=articles
+HTTP_REFERER=http://localhost/index.php?r=user/profile
+---

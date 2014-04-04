@@ -17,13 +17,13 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'title'); ?>
-		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->label($model,'author'); ?>
+		<?php echo $form->textField($model,'author',array('size'=>20,'maxlength'=>20)); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'author'); ?>
-		<?php echo $form->textField($model,'author',array('size'=>50,'maxlength'=>50)); ?>
+		<?php echo $form->label($model,'title'); ?>
+		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
 	<div class="row">
@@ -39,11 +39,6 @@
 	<div class="row">
 		<?php echo $form->label($model,'mysql_timestamp'); ?>
 		<?php echo $form->textField($model,'mysql_timestamp'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'posted_on'); ?>
-		<?php echo $form->textField($model,'posted_on'); ?>
 	</div>
 
 	<div class="row">

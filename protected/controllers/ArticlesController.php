@@ -31,13 +31,16 @@ class ArticlesController extends Controller
 				'actions'=>array('index','view'),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
-				'users'=>array('@'),
-			),
+
+			// Do not allow regular users to Create or Update
+
+			// array('allow', // allow authenticated user to perform 'create' and 'update' actions
+			// 	'actions'=>array('create','update'),
+			// 	'users'=>array('@'),
+			// ),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
+				'actions'=>array('admin', 'delete', 'create', 'update'),
+				'users'=>Yii::app()->getModule('user')->getAdmins(),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -69,7 +72,9 @@ class ArticlesController extends Controller
 
 		if(isset($_POST['Articles']))
 		{
-			$model->attributes=$_POST['Articles'];
+			$decArticleData = $_POST['Articles'];
+			$decArticleData['author'] = Yii::app()->getModule('user')->user()->username;
+			$model->attributes=$decArticleData;
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -122,7 +127,25 @@ class ArticlesController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Articles');
+		$decCriteria = new CDbCriteria(array(
+			// Order Articles in a descending orders (new ones at the top)
+			'order'=>'mysql_timestamp DESC'
+			));
+
+		if (isset($_GET['tag'])) {
+			$decCriteria->addSearchCondition('tags', $_GET['tag']);
+		}
+
+
+
+		$dataProvider=new CActiveDataProvider('Articles', array(
+			// Pagination with 5 Articles per page
+			'pagination'=>array(
+				'pageSize'=>5,
+				),
+			'criteria'=>$decCriteria,
+			));
+
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

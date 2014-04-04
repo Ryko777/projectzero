@@ -16,36 +16,80 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.modules.user.models.*',
+        'application.modules.user.components.*',
 	),
 
 	'modules'=>array(
+
+		// user module
+		'user'=>array(
+
+			'tableUsers' => 'zero_users',
+            'tableProfiles' => 'zero_profiles',
+            'tableProfileFields' => 'zero_profiles_fields',
+
+            // encrypting method (php hash function)
+            'hash' => 'md5',
+
+            // send activation email
+            'sendActivationMail' => true,
+
+            // allow access for non-activated users
+            'loginNotActiv' => false,
+
+            // activate user on registration (only sendActivationMail = false)
+            'activeAfterRegister' => false,
+
+            // automatically login from registration
+            'autoLogin' => true,
+
+            // registration path
+            'registrationUrl' => array('/user/registration'),
+
+            // recovery password path
+            'recoveryUrl' => array('/user/recovery'),
+
+            // login form path
+            'loginUrl' => array('/user/login'),
+
+            // page after login
+            'returnUrl' => array('/user/profile'),
+
+            // page after logout
+            'returnLogoutUrl' => array('/user/login'),
+        ),
+
+
 		// uncomment the following to enable the Gii tool
-		
-		// 'gii'=>array(
-		// 	'class'=>'system.gii.GiiModule',
-		// 	'password'=>'zomgffs117781',
-		// 	// If removed, Gii defaults to localhost only. Edit carefully to taste.
-		// 	'ipFilters'=>array('127.0.0.1','::1'),
-		// ),
+		'gii'=>array(
+			'class'=>'system.gii.GiiModule',
+			'password'=>'zomgffs117781',
+			// If removed, Gii defaults to localhost only. Edit carefully to taste.
+			'ipFilters'=>array('127.0.0.1','::1'),
+		),
 		
 	),
 
 	// application components
 	'components'=>array(
 		'user'=>array(
-			// enable cookie-based authentication
-			'allowAutoLogin'=>true,
+            'class'=>'WebUser',
+            // enable cookie-based authentication
+            'allowAutoLogin'=>true,
+            'loginUrl'=>array('/user/login'),
 		),
+
 		// uncomment the following to enable URLs in path-format
 		
-		'urlManager'=>array(
-			'urlFormat'=>'path',
-			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-			),
-		),
+		// 'urlManager'=>array(
+		// 	'urlFormat'=>'path',
+		// 	'rules'=>array(
+		// 		'<controller:\w+>/<id:\d+>'=>'<controller>/view',
+		// 		'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
+		// 		'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+		// 	),
+		// ),
 		
 		// 'db'=>array(
 		// 	'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
