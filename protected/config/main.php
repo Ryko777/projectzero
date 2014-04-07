@@ -33,7 +33,7 @@ return array(
             'hash' => 'md5',
 
             // send activation email
-            'sendActivationMail' => false,
+            'sendActivationMail' => true,
 
             // allow access for non-activated users
             'loginNotActiv' => false,
@@ -73,13 +73,12 @@ return array(
 
 	// application components
 	'components'=>array(
-		// USE MODULE USER INSTEAD
-		// 'user'=>array(
-  //           'class'=>'WebUser',
-  //           // enable cookie-based authentication
-  //           'allowAutoLogin'=>true,
-  //           'loginUrl'=>array('/user/login'),
-		// ),
+		'user'=>array(
+            'class'=>'WebUser',
+            // enable cookie-based authentication
+            'allowAutoLogin'=>true,
+            'loginUrl'=>array('/user/login'),
+		),
 
 		// uncomment the following to enable URLs in path-format
 		

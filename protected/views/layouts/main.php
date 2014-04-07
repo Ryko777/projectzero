@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/projectzero/js/jInvertScroll/dist/css/jInvertScroll.css" />
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -22,9 +23,7 @@
 
 <div class="container" id="page">
 
-	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
-	</div><!-- header -->
+
 
 	<div id="mainmenu">
 		<?php $this->widget('zii.widgets.CMenu',array(
@@ -43,6 +42,9 @@
 			),
 		)); ?>
 	</div><!-- mainmenu -->
+        	<div id="header">
+		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+	</div><!-- header -->
 	<?php if(isset($this->breadcrumbs)):?>
 		<?php $this->widget('zii.widgets.CBreadcrumbs', array(
 			'links'=>$this->breadcrumbs,
@@ -60,6 +62,31 @@
 	</div><!-- footer -->
 
 </div><!-- page -->
-
+    <h1>Scrollzors</h1>
+    
+    <div class="horizon scroll">
+        <img src="/projectzero/js/jInvertScroll/images/horizon.png" alt="" />
+    </div>
+    <div class="middle scroll">
+        <img src="/projectzero/js/jInvertScroll/images/middle.png" alt="" />
+    </div>
+    <div class="front scroll">
+        <img src="/projectzero/js/jInvertScroll/images/front.png" alt="" />
+    </div>
+    
+    <script type="text/javascript" src="/projectzero/js/jInvertScroll/libs/jquery.min.js"></script>
+    <script type="text/javascript" src="/projectzero/js/jInvertScroll/dist/js/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript">
+    (function($) {
+        $.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+            {
+            height: 6000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+            onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+                console.log(percent);
+            }
+        });
+    }(jQuery));
+    </script>
+<script type="text/javascript" href="<?php echo Yii::app()->request->baseUrl; ?>/js/invertScroll/dist/js/jquery.jInvertScroll.js"></script>
 </body>
 </html>
