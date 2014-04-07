@@ -39,7 +39,7 @@ return array(
             'loginNotActiv' => false,
 
             // activate user on registration (only sendActivationMail = false)
-            'activeAfterRegister' => true,
+            'activeAfterRegister' => false,
 
             // automatically login from registration
             'autoLogin' => true,
@@ -73,12 +73,13 @@ return array(
 
 	// application components
 	'components'=>array(
-		'user'=>array(
-            'class'=>'WebUser',
-            // enable cookie-based authentication
-            'allowAutoLogin'=>true,
-            'loginUrl'=>array('/user/login'),
-		),
+		// USE MODULE USER INSTEAD
+		// 'user'=>array(
+  //           'class'=>'WebUser',
+  //           // enable cookie-based authentication
+  //           'allowAutoLogin'=>true,
+  //           'loginUrl'=>array('/user/login'),
+		// ),
 
 		// uncomment the following to enable URLs in path-format
 		
